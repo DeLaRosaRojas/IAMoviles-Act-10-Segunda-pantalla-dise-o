@@ -165,7 +165,7 @@ class SeccionImagen extends StatelessWidget {
         child: ClipRRect(
           borderRadius: BorderRadius.circular(11),
           child: Image.network(
-            imageUrl,
+            imageUrl,//ALGO
             fit: BoxFit.cover,
           ),
         ),
