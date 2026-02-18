@@ -100,7 +100,7 @@ class VestirScreen extends StatelessWidget {
 
             // Apartado 2
             const SeccionImagen(
-              imageUrl: 'http://raw.githubusercontent.com/DeLaRosaRojas/IAMoviles-Act-10-Segunda-pantalla-dise-o/refs/heads/main/banner3.png',
+              imageUrl: 'https://raw.githubusercontent.com/DeLaRosaRojas/IAMoviles-Act-10-Segunda-pantalla-dise-o/refs/heads/main/banner3.png',
             ),
             
             const SizedBox(height: 40),
@@ -154,7 +154,7 @@ class SeccionImagen extends StatelessWidget {
         borderRadius: BorderRadius.circular(15),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.1), // Sombra pequeña
+            color: Color.fromARGB(26, 0, 0, 0), // Sombra pequeña (equivalent to Colors.black.withOpacity(0.1))
             blurRadius: 8,
             offset: const Offset(0, 4),
           ),
