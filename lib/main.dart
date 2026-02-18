@@ -154,7 +154,7 @@ class SeccionImagen extends StatelessWidget {
         borderRadius: BorderRadius.circular(15),
         boxShadow: [
           BoxShadow(
-            color: Color.fromARGB(26, 0, 0, 0), // Sombra pequeña (equivalent to Colors.black.withOpacity(0.1))
+            color: Colors.black.withAlpha(26), // Sombra pequeña (0.1 * 255 = 25.5, rounded to 26)
             blurRadius: 8,
             offset: const Offset(0, 4),
           ),
@@ -165,7 +165,7 @@ class SeccionImagen extends StatelessWidget {
         child: ClipRRect(
           borderRadius: BorderRadius.circular(11),
           child: Image.network(
-            imageUrl,//ALGO
+            imageUrl,
             fit: BoxFit.cover,
           ),
         ),
